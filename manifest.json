@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  
+  "name": "Straight into Bazzy's Classroom",
+  "version": "0.1.9",
+  "description": "Get straight to classroom without having to manually switch from your other accounts.",
+  
+  "background": {
+    "scripts": ["background.js"],
+    "persistant": false
+  },
+  
+  "browser_action": {
+    "default_title": "Classroom",
+    "default_popup": "popup.html"
+  },
+  
+  "permissions": [
+    "tabs",
+    "storage",
+    "webNavigation"
+  ]
+  
+  
+  
+  
+}
